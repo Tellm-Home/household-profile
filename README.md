@@ -42,7 +42,7 @@ To change a profile later, open the folder in Claude and say what to change ("Bi
 
 ## For the designer
 
-- **New food pictures:** add them to the Figma file (section "Vegetable illustrations"), then in Claude type `/add-illustrations` with the Figma link. Claude downloads them, matches them to their file names and updates the list of what's still to draw, [library/ingredients.md](library/ingredients.md). Then commit and push the change in GitHub Desktop so everyone gets it.
+- **New food pictures:** add them to the Figma file (section "Vegetable illustrations"), then in Claude type `/add-illustrations` with the Figma link. Claude downloads them, matches them to their file names and updates the list of what's still to draw, [library/ingredients.md](library/ingredients.md). Then ask Claude to commit and push the new pictures, so everyone gets them the next time they pull.
 - **A new ingredient** (one that isn't on the list yet): ask Claude to add it. It goes into the index with all its names (English, Hindi, regional), so profiles find it whatever the household calls it.
 - **Design changes** go in `generator/build.py`. The design source is Figma frame 199:463, the final flow. Details are in [generator/README.md](generator/README.md).
 
