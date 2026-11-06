@@ -4,6 +4,18 @@ M is a home-cook service in India. After a home visit, each household gets a pro
 
 Most people using this are not technical. Speak plainly, do the file work yourself, and don't show JSON or code unless asked.
 
+## Setting up on a new Mac
+
+When a teammate asks you to download or set up this project (often by pasting its GitHub link), do it for them in plain words:
+
+1. Check for Apple's command line tools with `xcode-select -p`. If they're missing, run `xcode-select --install` and tell the teammate to click **Install** in the window that opens and wait for it to finish (a few minutes). Python, git and Swift come from it.
+2. Check that `/Applications/Google Chrome.app` exists. If it doesn't, ask them to install Chrome from google.com/chrome.
+3. Get the project. It's public, so no GitHub sign-in is needed.
+   - If `~/Documents/household-profile` doesn't exist, run `git clone https://github.com/Tellm-Home/household-profile.git ~/Documents/household-profile`.
+   - If it exists, run `git -C ~/Documents/household-profile pull`. Never discard local changes without asking. `profiles/` is never touched by a pull.
+4. From that folder, run `python3 generator/make.py examples/four-people`. It should end with "Ready to send".
+5. Make their profile with `.claude/skills/household-profile/SKILL.md`, working in that folder. When you hand over the PDF, tell them that next time they can open `Documents/household-profile` in the Code tab and type `/household-profile`.
+
 ## Commands
 
 - Make or update a profile: the `/household-profile` skill. Under the hood: `python3 generator/make.py <house>` (checks, builds, checks the fit, makes the PDF).

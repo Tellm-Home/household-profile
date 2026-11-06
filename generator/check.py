@@ -23,7 +23,7 @@ DEFAULTS = {
     ("closing", "cta"): "Drop us a voice note or a simple text and we’ll fix it",
 }
 DIETS = {"nonveg", "veg", "egg"}
-SHELVES = ["chicken", "seafood", "eggs", "fresh", "mutton", "dairy", "bakery"]
+SHELVES = ["chicken", "seafood", "eggs", "fresh", "mutton", "dairy", "bakery", "groceries"]
 AVATARS = 24
 # Names people use for an app -> the logo file's slug in library/logos/sources.csv
 ALIAS = {"swiggy instamart": "instamart", "bb now": "bigbasket", "big basket": "bigbasket", "amazon fresh": "amazon", "amazon now": "amazon",
@@ -63,7 +63,6 @@ def normalize(d):
     for p in people:
         if p.get("name"):
             p.setdefault("id", slugify(p["name"]))
-        p.setdefault("allergies", "No allergies")
         p.setdefault("noticed", [])
     names = [p["name"] for p in people if p.get("name")]
     if names:
@@ -171,8 +170,9 @@ def validate(d):
     if "spice" in d:
         need(d["spice"].get("level") in (1, 2, 3), "spice.level must be 1 (mild), 2 (medium) or 3 (hot). Leave spice out if the notes don't say")
     for p in d.get("proteins", []):
-        need(p.get("name") and p.get("label"), "each protein needs a name and a label")
-        need(p.get("freq") in (1, 2, 3, 4), f"protein {p.get('name')}: freq must be 1 to 4 (dots shown)")
+        need(p.get("name"), "each protein needs a name")
+        if "freq" in p:
+            need(p["freq"] in (1, 2, 3, 4) and p.get("label"), f"protein {p.get('name')}: freq must be 1 to 4 (dots shown) and needs a label. Leave both out if the notes don't say how often")
 
     S = d.get("sources", {})
     need(S.get("groups"), "sources.groups is empty: add at least one shelf")

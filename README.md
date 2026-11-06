@@ -10,25 +10,19 @@ You need a Mac with the [Claude app](https://claude.ai/download) and [Google Chr
 
 Open the Claude app, go to the **Code** tab, and send this:
 
-> Set up https://github.com/Tellm-Home/household-profile and make a household profile from these notes: *(paste your visit notes, a call transcript or the form answers)*
+> Download https://github.com/Tellm-Home/household-profile into my Documents folder (or update it if it's already there), follow its CLAUDE.md, and make a household profile from these notes: *(paste your visit notes, a call transcript or the form answers)*
 
 Claude downloads the project into `Documents/household-profile`, checks your Mac, and drafts the profile. It then shows you a short summary that lists anything it wasn't sure about. Correct it or say it's right, and Claude builds the PDF. **That PDF is what you send.**
 
-Next time, either paste the link again or open the `household-profile` folder in the Code tab and type `/household-profile`. Either way you get the latest pictures and fixes first.
+Next time, either send the same message with new notes or open the `household-profile` folder in the Code tab and type `/household-profile`. Either way you get the latest pictures and fixes first.
 
-## For Claude: setting up from the link
+## For Claude
 
-When someone gives you this repository's link, do this for them, in plain words, without asking them to run anything themselves:
-
-1. **Check the Mac.**
-   - Run `xcode-select -p`. If it fails, run `xcode-select --install`. Tell them to click **Install** in the window that opens and to wait until it finishes (a few minutes). Python, git and Swift all come from it.
-   - Check that `/Applications/Google Chrome.app` exists. If it doesn't, ask them to install Chrome from google.com/chrome.
-2. **Get the project.** The repository is public, so no GitHub sign-in is needed.
-   - If `~/Documents/household-profile` doesn't exist, run `git clone https://github.com/Tellm-Home/household-profile.git ~/Documents/household-profile`.
-   - If it exists, run `git -C ~/Documents/household-profile pull`. If the pull refuses because files were changed locally, show them what changed and ask before discarding anything. `profiles/` is never touched by a pull.
-3. **Prove it works.** From that folder, run `python3 generator/make.py examples/four-people`. It should end with "Ready to send".
-4. **Do the work in that folder.** Read its `CLAUDE.md`, then follow `.claude/skills/household-profile/SKILL.md` with their notes. Everything you write goes in `~/Documents/household-profile/profiles/<house>/`.
-5. **When you hand over the PDF,** tell them that next time they can open `Documents/household-profile` in the Code tab and type `/household-profile`.
+If you were given this link, the setup steps are in the "Setting up on a new Mac" section of [CLAUDE.md](CLAUDE.md). In short:
+- clone (or `git pull`) into `~/Documents/household-profile`; it's public, so no sign-in is needed
+- check for Apple's command line tools and Chrome
+- build `examples/four-people`
+- follow `.claude/skills/household-profile/SKILL.md` from that folder
 
 ## Your profiles
 

@@ -26,10 +26,10 @@ Rules that matter more than anything else:
 - **Only what the notes say.** Never invent a dish, an app, a rule, an allergy or a number to fill a section. If the notes don't cover something, leave that field or section out. Omitting is always better than guessing.
 - **Nothing about who orders or who decides the menu.**
 - **Rules are the household's preferences**, written about them ("Ask before throwing anything out"), never about M staff or what M does.
-- **Allergies are only real allergies.** Dislikes and avoids go in no-gos ("Peanuts", "An avoid, not an allergy").
+- **Allergies are only real allergies, and only if the visit covered them.** Don't write "No allergies" unless the notes say so; leave `allergies` out instead. Dislikes and avoids go in no-gos ("Peanuts", "An avoid, not an allergy").
 - House voice: short, calm, sentence case, no exclamation marks, no emoji, Indian food names as the household says them.
 - Don't set `avatar`, `title`, `greeting` or the standard headings; they are filled in. Set them only if the person asks.
-- Proteins: use the `freq` and `label` steps in the guide (4 Every day, 3 Day to day, 2 Often or Once in a while, 1 Occasionally) so every profile reads the same.
+- Proteins: use the `freq` and `label` steps in the guide (4 Every day, 3 Day to day, 2 Often or Once in a while, 1 Occasionally) so every profile reads the same. If the notes don't say how often, leave `freq` and `label` out rather than guessing.
 - Spice: only if the notes say. "Spicy" is 3, "normal" or "medium" is 2, "mild" or "not spicy" is 1. If they don't say, leave `spice` out.
 - Something only one person avoids goes on their card as a "Skips" line in `noticed`, not in the house no-gos.
 

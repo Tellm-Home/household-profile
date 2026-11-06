@@ -413,8 +413,9 @@ S.append(f'''<header class="sc hero">{bg("ice-beige", "rgba(250,246,240,.18)")}
 
 # 2 household
 def sub_line(p):
-    a = p.get("allergies", "No allergies")
-    return f'{DIET.get(p["diet"], DIET["nonveg"])[0]}, {a[0].lower() + a[1:]}'
+    a = p.get("allergies")   # shown only when the visit said so, "No allergies" included
+    d = DIET.get(p["diet"], DIET["nonveg"])[0]
+    return f'{d}, {a[0].lower() + a[1:]}' if a else d
 def per(p, wide=False):
     likes = f'<div class="lkb"><div class="lk">Likes</div><div class="v">{e(p["likes"])}</div></div>' if p.get("likes") else ""
     return (f'<div class="gl d hb per{" w" if wide else ""}">{ava(p, 64)}<div><div class="nm">{e(p["name"])}</div><div class="sb">{e(sub_line(p))}</div></div>'
@@ -488,7 +489,8 @@ def prot_art(name):
 def prow(p):
     a = prot_art(p["name"])
     art = ill(a) if a else f'<span class="ph" title="No picture yet">{fi("food", 22)}</span>'
-    return f'<div class="pr"><span class="art">{art}</span><span class="nm">{e(p["name"])}</span><span class="r">{dots(p["freq"])}<span class="w">{e(p["label"])}</span></span></div>'
+    how = f'<span class="r">{dots(p["freq"])}<span class="w">{e(p.get("label", ""))}</span></span>' if p.get("freq") else ""
+    return f'<div class="pr"><span class="art">{art}</span><span class="nm">{e(p["name"])}</span>{how}</div>'
 lvl = data.get("spice", {}).get("level")
 spice = ""
 if lvl:
@@ -505,7 +507,7 @@ if spice or prows:
 # 6 where your food comes from — default shelves: chicken, seafood, eggs, fresh food and veggies
 SHELF = {"chicken": ("Chicken", ["roast-chicken"]), "seafood": ("Seafood", ["fish", "shrimp"]), "eggs": ("Eggs", ["egg-fresh"] * 3),
          "fresh": ("Fresh food and veggies", ["tomato-fresh", "spinach", "carrot"]), "mutton": ("Mutton", ["lamb-chops"]),
-         "dairy": ("Dairy", ["milk", "yogurt"]), "bakery": ("Bread and bakery", ["bread-fresh"])}
+         "dairy": ("Dairy", ["milk", "yogurt"]), "bakery": ("Bread and bakery", ["bread-fresh"]), "groceries": ("Groceries and staples", ["rice-bag", "cooking-oil"])}
 ORDER = check.SHELVES   # chicken, seafood, eggs, fresh, then mutton, dairy, bakery
 SD = data["sources"]
 gs = sorted(SD["groups"], key=lambda g: ORDER.index(g["kind"]) if g["kind"] in ORDER else 9)
@@ -551,8 +553,8 @@ def info(r):
     s = f'<div class="s13">{e(r["sub"])}</div>' if r.get("sub") else ""
     return f'<div class="info"><span class="ib">{fi(r.get("icon", "star"), 18)}</span><div><p class="lab">{e(r["label"])}</p><div class="v">{e(r["value"])}</div>{s}</div></div>'
 def pcard(p):
-    a = p.get("allergies", "No allergies")
-    pill = f'<span class="rt pill {"n" if a.lower().startswith("no ") else "al"}">{e(a)}</span>'
+    a = p.get("allergies")
+    pill = f'<span class="rt pill {"n" if a.lower().startswith("no ") else "al"}">{e(a)}</span>' if a else ""
     return f'<div class="gl l pc rv"><div class="ph">{ava(p, 72)}<div><div class="nm">{e(p["name"])}</div>{diet(p["diet"])}</div>{pill}</div>{"".join(info(r) for r in p["noticed"])}</div>'
 ND = data["noticed"]
 pcs = "".join(pcard(p) for p in people if p.get("noticed"))

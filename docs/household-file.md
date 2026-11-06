@@ -62,7 +62,7 @@ The page runs top to bottom in this order.
 |---|---|---|
 | `name` | First name | Required |
 | `diet` | `nonveg`, `veg` or `egg` (eggetarian) | Required |
-| `allergies` | "No allergies" or what it is, e.g. "Peanut allergy" | Defaults to "No allergies". Only real allergies; dislikes go in no-gos |
+| `allergies` | What it is, e.g. "Peanut allergy", or "No allergies" | Only if the visit covered it. Left out, the card says nothing about allergies. Only real allergies; dislikes go in no-gos. An intolerance ("lactose intolerant") counts if they said so |
 | `likes` | One short thing they like | Optional. Shown on their card |
 | `avatar` | 1 to 24 | Optional; picked automatically. The faces are in `library/avatars` |
 | `noticed` | Small personal things for "The little thing we noticed" | Optional list of `{"icon", "label", "value"}`, e.g. `{"icon": "weather_sunny", "label": "Mornings", "value": "Carrot or beetroot juice"}`. A person with none gets no card |
@@ -85,7 +85,7 @@ Apps with a logo: Blinkit, Zepto, Swiggy Instamart, Swiggy, Flipkart Minutes, Am
 | Field | What it is | Notes |
 |---|---|---|
 | `meals.sub` | One line, e.g. "Simple mornings, a packed lunch, a light dinner" | |
-| `meals.items` | One card per meal, any number | `name` (Breakfast), `tag` (a short pill: "Packed", "At home", "Light"), `what` (the main line), `sub` (a smaller line) |
+| `meals.items` | One card per meal, any number | `name` (Breakfast), `tag` (optional short pill: "Packed", "At home", "Light"), `what` (the main line), `sub` (a smaller line) |
 | `meals.items[].each` | Different things for different people | `[{"person": "asha", "text": "Filter coffee"}]`. Shows their avatar |
 | `meals.items[].art` | Pictures for the meal tile | Optional. Without it, the picture comes from the words in `what` |
 | `meals.notes` | Extra cards, like how they like rice | `{"label": "Rice", "what": "Everyday rice is plain white", "sub": "..."}` |
@@ -106,7 +106,7 @@ The cuisine tiles above the dishes come from `cuisines`.
 | Field | What it is |
 |---|---|
 | `spice.level` | 1 mild (little or no chilli), 2 medium (normal home spice), 3 hot (they ask for it spicy). Leave `spice` out if the notes don't say; the gauge is then not shown |
-| `proteins` | `{"name": "Seer, kingfish", "freq": 2, "label": "Once in a while"}`. The picture is found from the name. Put the one they eat most first |
+| `proteins` | `{"name": "Seer, kingfish", "freq": 2, "label": "Once in a while"}`. The picture is found from the name. Put the one they eat most first. If the notes don't say how often, leave out `freq` and `label`: the row shows only the protein |
 
 `freq` is the number of dots out of 4. Use these steps and labels, so every profile reads the same way:
 
@@ -122,7 +122,7 @@ The cuisine tiles above the dishes come from `cuisines`.
 | Field | What it is | Notes |
 |---|---|---|
 | `sources.sub` | One line, e.g. "Fresh only from the apps you trust" | |
-| `sources.groups` | One shelf each | `kind` is `chicken`, `seafood`, `eggs`, `fresh`, `mutton`, `dairy` or `bakery`. They always show in that order. Leave a kind out to drop its shelf. Any other kind needs a `title` and `items`, and comes last |
+| `sources.groups` | One shelf each | `kind` is `chicken`, `seafood`, `eggs`, `fresh`, `mutton`, `dairy`, `bakery` or `groceries` ("everything else", e.g. "BB Now for everything else"). They always show in that order. Leave a kind out to drop its shelf. Any other kind needs a `title` and `items`, and comes last |
 | `groups[].apps` | The apps for that shelf, in order of preference | Same names as `platforms`. A shelf fits 3 apps on one line |
 | `groups[].note` | A small pill, e.g. "Only these two", "Under ₹10 each" | |
 | `groups[].items` | What exactly, e.g. `["Pomfret", "Prawns"]` | Picks the shelf's pictures. Without it the shelf uses its usual pictures |
