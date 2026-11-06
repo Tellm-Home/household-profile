@@ -1,0 +1,216 @@
+file,name,category,aliases,priority,stand_in,have
+roast-chicken,Chicken (whole),Chicken and meat,chicken|whole chicken|murgh|kozhi,,,yes
+chicken-curry-cut,Chicken curry cut,Chicken and meat,curry cut|chicken with bone|bone-in chicken,P1,roast-chicken,yes
+chicken-breast,Chicken breast,Chicken and meat,chicken breast|boneless chicken,,,yes
+chicken-drumstick,Chicken drumstick,Chicken and meat,drumstick chicken|chicken leg|leg piece,,,yes
+chicken-wings,Chicken wings,Chicken and meat,chicken wings|wings,,,yes
+ground-meat,Keema,Chicken and meat,keema|kheema|mince|minced meat|ground meat,,,yes
+mutton-curry-cut,Mutton curry cut,Chicken and meat,mutton|goat|gosht|mutton curry cut,P1,lamb-chops,yes
+lamb-chops,Lamb chops,Chicken and meat,lamb|lamb chops|chops,,,yes
+liver,Liver and offal,Chicken and meat,liver|kaleji|offal,P3,,no
+beef-steak,Beef,Chicken and meat,beef|steak,,,yes
+pork-chop,Pork,Chicken and meat,pork,,,yes
+bacon,Bacon,Chicken and meat,bacon,,,yes
+sausage,Sausage,Chicken and meat,sausage|sausages,,,yes
+salami,Salami and cold cuts,Chicken and meat,salami|cold cuts|ham,,,yes
+meatballs,Meatballs,Chicken and meat,meatballs|kofta,,,yes
+fish,Fish (whole),Fish and seafood,fish|mackerel|bangda|ayala|sardine|mathi|basa|hilsa|ilish,,,yes
+pomfret,Pomfret,Fish and seafood,pomfret|paplet|avoli,P1,fish,yes
+seer-fish,Seer fish steak,Fish and seafood,seer|seer fish|surmai|vanjaram|kingfish|king fish|neymeen,P1,salmon,yes
+rohu,Rohu or katla,Fish and seafood,rohu|katla|river fish,P2,fish,yes
+salmon,Salmon,Fish and seafood,salmon,,,yes
+tuna,Tuna,Fish and seafood,tuna|choora,,,yes
+shrimp,Prawns,Fish and seafood,prawn|prawns|shrimp|jhinga|chemmeen|chingri|era,,,yes
+crab,Crab,Fish and seafood,crab|nandu|kekda,,,yes
+squid,Squid,Fish and seafood,squid|calamari|koonthal,,,yes
+lobster,Lobster,Fish and seafood,lobster,,,yes
+mussel,Mussels and clams,Fish and seafood,mussel|mussels|clam|clams|kallummakkaya,,,yes
+octopus,Octopus,Fish and seafood,octopus,,,yes
+dried-fish,Dried fish,Fish and seafood,dried fish|dry fish|karuvadu|sukha bombil,P3,,no
+canned-fish,Canned fish,Fish and seafood,canned fish|canned tuna|tinned fish,,,yes
+egg-fresh,Egg,Eggs and vegetarian protein,egg|eggs|anda|motte|mutta,,,yes
+eggs,Eggs (carton),Eggs and vegetarian protein,egg carton|eggs pack|30-pack|tray of eggs,,,yes
+paneer,Paneer,Eggs and vegetarian protein,paneer|cottage cheese,P1,,yes
+tofu,Tofu,Eggs and vegetarian protein,tofu|soy paneer,P1,,yes
+soya-chunks,Soya chunks,Eggs and vegetarian protein,soya|soya chunks|nutrela|meal maker,P1,,yes
+rajma,Rajma,Eggs and vegetarian protein,rajma|kidney beans|red kidney beans,P1,,yes
+chickpeas,Chickpeas,Eggs and vegetarian protein,chole|chickpea|chickpeas|kabuli chana|chana,,,yes
+black-chana,Black chana,Eggs and vegetarian protein,kala chana|black chana|black chickpeas|kadala,P2,chickpeas,yes
+sprouts,Moong sprouts,Eggs and vegetarian protein,sprouts|moong sprouts|usal|sundal,P2,mung-beans,yes
+peanuts,Peanuts,Eggs and vegetarian protein,peanut|peanuts|groundnut|moongphali|kadalekai,P2,,yes
+mushroom,Mushroom,Eggs and vegetarian protein,mushroom|mushrooms,,,yes
+cheese,Cheese,Eggs and vegetarian protein,cheese|mozzarella|cheddar,,,yes
+onion,Onion,Vegetables,onion|onions|pyaz|kanda|eerulli|vengayam,,,yes
+tomato,Tomato,Vegetables,tomato|tomatoes|tamatar,,,yes
+potato,Potato,Vegetables,potato|potatoes|aloo|batata|urulai,,,yes
+garlic,Garlic,Vegetables,garlic|lehsun|bellulli|poondu,,,yes
+ginger,Ginger,Vegetables,ginger|adrak|inji|shunti,,,yes
+green-chillies,Green chillies,Vegetables,green chilli|green chillies|hari mirch|menasinakai,,,yes
+carrot,Carrot,Vegetables,carrot|carrots|gajar,,,yes
+spinach,Spinach,Vegetables,spinach|palak|keerai|greens|leafy greens,,,yes
+broccoli,Broccoli,Vegetables,broccoli,,,yes
+eggplant,Brinjal,Vegetables,brinjal|baingan|eggplant|vangi|ennegai|kathirikai,,,yes
+pepper,Capsicum,Vegetables,capsicum|bell pepper|shimla mirch,,,yes
+cauliflower,Cauliflower,Vegetables,cauliflower|gobi|phool gobi,P1,,yes
+cabbage,Cabbage,Vegetables,cabbage|patta gobi|band gobi,P1,,yes
+okra,Okra,Vegetables,okra|bhindi|lady finger|ladies finger|vendakkai,P1,,yes
+green-peas,Green peas,Vegetables,peas|green peas|matar|pattani,P1,green-peas-bag,yes
+french-beans,French beans,Vegetables,beans|french beans|green beans,P1,,yes
+cucumber,Cucumber,Vegetables,cucumber|kheera|kakdi|southekai,P1,,yes
+beetroot,Beetroot,Vegetables,beetroot|beet|chukandar,P1,,yes
+bottle-gourd,Bottle gourd,Vegetables,lauki|bottle gourd|doodhi|sorakaya|ghiya,P2,,yes
+bitter-gourd,Bitter gourd,Vegetables,karela|bitter gourd|pavakkai,P2,,yes
+drumstick,Drumstick (moringa),Vegetables,moringa|drumstick vegetable|murungakkai|sahjan,P2,,yes
+pumpkin,Pumpkin,Vegetables,pumpkin|kaddu|parangikai,P2,,yes
+sweet-potato,Sweet potato,Vegetables,sweet potato|shakarkandi,P2,,yes
+radish,Radish,Vegetables,radish|mooli|mullangi,P2,,yes
+corn,Sweet corn,Vegetables,corn|sweet corn|bhutta|makai,P2,,yes
+spring-onion,Spring onion,Vegetables,spring onion|scallion|hara pyaz,P2,,yes
+methi,Fenugreek leaves,Vegetables,methi|methi leaves|fenugreek leaves|vendhaya keerai,P2,,yes
+raw-banana,Raw banana,Vegetables,raw banana|kachha kela|plantain|vazhakkai,P3,,no
+colocasia,Colocasia,Vegetables,arbi|colocasia|seppankizhangu,P3,,no
+ridge-gourd,Ridge gourd,Vegetables,turai|ridge gourd|peerkangai,P3,,no
+lettuce,Lettuce,Vegetables,lettuce|iceberg,P3,,no
+zucchini,Zucchini,Vegetables,zucchini,P3,,no
+jackfruit,Jackfruit,Vegetables,jackfruit|kathal|chakka,P3,,no
+coriander,Coriander leaves,Herbs and aromatics,coriander|dhaniya|cilantro|kothamalli,,,yes
+curry-leaves,Curry leaves,Herbs and aromatics,curry leaves|kadi patta|karibevu|kariveppila,,,yes
+mint,Mint,Herbs and aromatics,mint|pudina,P1,,yes
+lemon,Lemon,Herbs and aromatics,lemon|lemons|nimbu|lime|citrus,,,yes
+basil,Basil,Herbs and aromatics,basil|tulsi,P3,,no
+lemongrass,Lemongrass,Herbs and aromatics,lemongrass,P3,,no
+dill,Dill,Herbs and aromatics,dill|suva|shepu,P3,,no
+apple,Apple,Fruit,apple|apples|seb,,,yes
+banana,Banana,Fruit,banana|bananas|kela,,,yes
+orange,Orange,Fruit,orange|oranges|santra|mosambi|sweet lime,,,yes
+grapes,Grapes,Fruit,grapes|angoor,,,yes
+strawberry,Strawberry,Fruit,strawberry|strawberries,,,yes
+avocado,Avocado,Fruit,avocado,,,yes
+mango,Mango,Fruit,mango|mangoes|aam,P1,,yes
+papaya,Papaya,Fruit,papaya|papita,P1,,yes
+pomegranate,Pomegranate,Fruit,pomegranate|anar,P1,,yes
+coconut,Coconut,Fruit,coconut|nariyal|thengai|grated coconut,P1,coconut-oil,yes
+watermelon,Watermelon,Fruit,watermelon|tarbooz,P2,,yes
+guava,Guava,Fruit,guava|amrood|peru,P2,,yes
+pineapple,Pineapple,Fruit,pineapple|ananas,P2,,yes
+tender-coconut,Tender coconut,Fruit,tender coconut|coconut water|elaneer,P2,,yes
+chikoo,Chikoo,Fruit,chikoo|sapota,P3,,no
+muskmelon,Muskmelon,Fruit,muskmelon|kharbuja,P3,,no
+pear,Pear,Fruit,pear|nashpati,P3,,no
+kiwi,Kiwi,Fruit,kiwi,P3,,no
+berries,Berries,Fruit,berries|blueberries,P3,,no
+milk,Milk,Dairy,milk|doodh|paal|haalu,,,yes
+milk-pouch,Milk pouch,Dairy,milk pouch|packet milk|nandini|amul milk|aavin,P1,milk,yes
+curd,Curd,Dairy,curd|dahi|thayir|mosaru|plain yogurt,P1,yogurt,yes
+yogurt,Yogurt (cup),Dairy,yogurt|greek yogurt|flavoured yogurt,,,yes
+butter,Butter,Dairy,butter|makkhan|benne,,,yes
+ghee,Ghee,Dairy,ghee|tuppa|nei,,,yes
+buttermilk,Buttermilk,Dairy,buttermilk|chaas|majjige|moru|mattha,P2,,yes
+fresh-cream,Fresh cream,Dairy,cream|fresh cream|malai,P2,,yes
+cheese-slices,Cheese slices,Dairy,cheese slices|sliced cheese,P3,cheese,no
+condensed-milk,Condensed milk,Dairy,condensed milk|milkmaid,P3,,no
+rice,Rice,"Grains, flours and bread",rice|chawal|basmati|sona masoori|ponni|matta rice|kolam,,,yes
+rice-bag,Rice (bag),"Grains, flours and bread",rice bag|bag of rice,,,yes
+flour,Atta,"Grains, flours and bread",atta|wheat flour|chakki atta|roti flour,,,yes
+flour-bowl,Maida,"Grains, flours and bread",maida|all-purpose flour|refined flour,,,yes
+besan,Besan,"Grains, flours and bread",besan|gram flour|kadalai maavu,P1,flour,yes
+semolina,Sooji,"Grains, flours and bread",sooji|suji|rava|semolina,,,yes
+flattened-rice,Poha,"Grains, flours and bread",poha|aval|avalakki|flattened rice|chuda,,,yes
+oats-bowl,Oats,"Grains, flours and bread",oats|porridge|overnight oats,,,yes
+cornflakes-bowl,Cornflakes,"Grains, flours and bread",cornflakes|cereal|muesli|granola,,,yes
+ragi,Ragi,"Grains, flours and bread",ragi|nachni|finger millet,P2,,yes
+millets,Millets,"Grains, flours and bread",millet|millets|jowar|bajra|foxtail millet,P2,,yes
+rice-flour,Rice flour,"Grains, flours and bread",rice flour|akki hittu,P2,flour-bowl,yes
+vermicelli-jar,Vermicelli,"Grains, flours and bread",vermicelli|semiya|seviyan,,,yes
+pasta-jar,Pasta,"Grains, flours and bread",pasta|penne|macaroni,,,yes
+spaghetti,Spaghetti,"Grains, flours and bread",spaghetti,,,yes
+noodles,Noodles,"Grains, flours and bread",noodles|hakka noodles|ramen,P2,vermicelli-jar,yes
+sabudana,Sabudana,"Grains, flours and bread",sabudana|sago|javvarisi,P3,,no
+daliya,Daliya,"Grains, flours and bread",daliya|dalia|broken wheat,P3,,no
+quinoa,Quinoa,"Grains, flours and bread",quinoa,P3,,no
+bread-fresh,Bread,"Grains, flours and bread",bread|loaf|toast|sandwich,,,yes
+bread-loaf,Sliced bread (pack),"Grains, flours and bread",sliced bread|brown bread|multigrain bread,,,yes
+pav,Pav,"Grains, flours and bread",pav|buns|bun|ladi pav,P2,bread-fresh,yes
+croissant,Croissant,"Grains, flours and bread",croissant,,,yes
+wraps,Wraps,"Grains, flours and bread",wrap|wraps|tortilla,P3,,no
+yellow-lentils,Toor dal,Dals and pulses,toor dal|arhar|tuvar|togari bele|dal|lentils,,,yes
+moong-dal,Moong dal,Dals and pulses,moong dal|yellow moong|hesaru bele|pesarapappu,P1,yellow-lentils,yes
+mung-beans,Green moong,Dals and pulses,green moong|whole moong|mung beans|green gram,,,yes
+urad-dal,Urad dal,Dals and pulses,urad|urad dal|black gram|uddina bele,P1,,yes
+chana-dal,Chana dal,Dals and pulses,chana dal|bengal gram|kadale bele,,,yes
+red-lentils-bag,Masoor dal,Dals and pulses,masoor|masoor dal|red lentils,,,yes
+green-peas-bag,Dried peas,Dals and pulses,dried peas|vatana,,,yes
+lobia,Lobia,Dals and pulses,lobia|black-eyed beans|chawli|karamani,P3,,no
+horse-gram,Horse gram,Dals and pulses,horse gram|kulthi|kollu|hurali,P3,,no
+spice-box,Masala dabba,Spices,masala dabba|spice box|masalas|spices,,,yes
+turmeric-powder,Turmeric,Spices,turmeric|haldi|arishina|manjal,,,yes
+red-chilli-powder,Red chilli powder,Spices,red chilli powder|chilli powder|lal mirch|kashmiri chilli,,,yes
+cumin-seeds,Cumin,Spices,cumin|jeera|jeeragam,,,yes
+mustard-seeds,Mustard seeds,Spices,mustard seeds|rai|sasive|kadugu,,,yes
+coriander-seeds,Coriander seeds,Spices,coriander seeds|dhaniya seeds,,,yes
+fenugreek-seeds,Fenugreek seeds,Spices,fenugreek seeds|methi seeds|vendhayam,,,yes
+black-pepper,Black pepper,Spices,black pepper|pepper|kali mirch|milagu,,,yes
+cinnamon-and-cloves,Cinnamon and cloves,Spices,cinnamon|cloves|dalchini|laung|whole spices,,,yes
+cardamom,Cardamom,Spices,cardamom|elaichi|elakki,,,yes
+bay-leaves,Bay leaves,Spices,bay leaf|bay leaves|tej patta,,,yes
+red-chillies,Dry red chillies,Spices,dry red chilli|dry red chillies|byadgi|guntur,,,yes
+chilli,Red chilli (fresh),Spices,red chilli|spicy|chilli,,,yes
+garam-masala,Masala packet,Spices,garam masala|sambar powder|rasam powder|biryani masala|pav bhaji masala|chaat masala|kitchen king,P1,spice-box,yes
+coriander-powder,Coriander powder,Spices,coriander powder|dhaniya powder,P2,,yes
+hing,Hing,Spices,hing|asafoetida|perungayam,P2,,yes
+fennel-seeds,Fennel seeds,Spices,fennel|saunf|sombu,P2,,yes
+ajwain,Ajwain,Spices,ajwain|carom seeds|omam,P3,,no
+kasuri-methi,Kasuri methi,Spices,kasuri methi|dried fenugreek,P3,,no
+saffron,Saffron,Spices,saffron|kesar,P3,,no
+star-anise,Star anise,Spices,star anise|chakri phool,P3,,no
+cooking-oil,Cooking oil,Oils and fats,oil|cooking oil|refined oil,,,yes
+sunflower-oil,Sunflower oil,Oils and fats,sunflower oil,,,yes
+mustard-oil,Mustard oil,Oils and fats,mustard oil|sarson ka tel,,,yes
+coconut-oil,Coconut oil,Oils and fats,coconut oil|velichenna,,,yes
+olive-oil,Olive oil,Oils and fats,olive oil,,,yes
+groundnut-oil,Groundnut oil,Oils and fats,groundnut oil|peanut oil|kadalekai enne,P2,cooking-oil,yes
+sesame-oil,Sesame oil,Oils and fats,sesame oil|gingelly|til oil|nallennai,P3,cooking-oil,no
+sugar-jar,Sugar,"Sweet, salt and sour",sugar|cheeni|sakkare,,,yes
+brown-sugar-jar,Brown sugar,"Sweet, salt and sour",brown sugar,,,yes
+jaggery,Jaggery,"Sweet, salt and sour",jaggery|gur|bella|vellam,,,yes
+honey,Honey,"Sweet, salt and sour",honey|shahad|jenu,,,yes
+salt-jar,Salt,"Sweet, salt and sour",salt|namak|uppu,,,yes
+pink-salt,Rock salt,"Sweet, salt and sour",rock salt|sendha namak|pink salt|black salt|kala namak,,,yes
+tamarind,Tamarind,"Sweet, salt and sour",tamarind|imli|hunase|puli,,,yes
+kokum,Kokum,"Sweet, salt and sour",kokum,P3,,no
+vinegar,Vinegar,"Sweet, salt and sour",vinegar,P3,,no
+pickle,Pickle,"Sauces, spreads and pastes",pickle|achaar|achar|uppinakai|oorugai,P1,,yes
+ketchup,Ketchup,"Sauces, spreads and pastes",ketchup|tomato sauce,P1,,yes
+ginger-garlic-paste,Ginger-garlic paste,"Sauces, spreads and pastes",ginger garlic paste|ginger-garlic paste|gg paste,P1,,yes
+soy-sauce,Soy sauce,"Sauces, spreads and pastes",soy sauce,P2,,yes
+chilli-sauce,Chilli sauce,"Sauces, spreads and pastes",chilli sauce|schezwan|hot sauce|sriracha,P2,,yes
+peanut-butter,Peanut butter,"Sauces, spreads and pastes",peanut butter,P2,,yes
+jam,Jam,"Sauces, spreads and pastes",jam|fruit jam,P2,,yes
+chutney,Chutney,"Sauces, spreads and pastes",chutney|coconut chutney|green chutney,P2,,yes
+coconut-milk,Coconut milk,"Sauces, spreads and pastes",coconut milk,,,yes
+tomato-puree,Tomato puree,"Sauces, spreads and pastes",tomato puree|tomato paste,P3,,no
+mayonnaise,Mayonnaise,"Sauces, spreads and pastes",mayonnaise|mayo,P3,,no
+almonds,Almonds,Nuts and dry fruit,almond|almonds|badam,P1,,yes
+cashews,Cashews,Nuts and dry fruit,cashew|cashews|kaju|godambi,P1,,yes
+raisins,Raisins,Nuts and dry fruit,raisins|kishmish|dry grapes,P2,,yes
+walnuts,Walnuts,Nuts and dry fruit,walnut|walnuts|akhrot,P2,,yes
+dates,Dates,Nuts and dry fruit,dates|khajur,P2,,yes
+makhana,Makhana,Nuts and dry fruit,makhana|fox nuts|lotus seeds,P3,,no
+seeds-mix,Chia and flax seeds,Nuts and dry fruit,chia|flax|flaxseed|seeds,P3,,no
+pistachios,Pistachios,Nuts and dry fruit,pistachio|pista,P3,,no
+idli-batter,Idli and dosa batter,Snacks and ready to cook,batter|idli batter|dosa batter|maavu,P1,,yes
+biscuits,Biscuits,Snacks and ready to cook,biscuit|biscuits|cookies|marie,P1,,yes
+namkeen,Namkeen,Snacks and ready to cook,namkeen|bhujia|mixture|chivda,P1,,yes
+instant-noodles,Instant noodles,Snacks and ready to cook,instant noodles|maggi|yippee,P1,vermicelli-jar,yes
+papad,Papad,Snacks and ready to cook,papad|appalam|happala|papadam,P1,,yes
+rusk,Rusk,Snacks and ready to cook,rusk|toast rusk,P2,,yes
+chips,Chips,Snacks and ready to cook,chips|crisps,P3,,no
+frozen-peas,Frozen peas,Snacks and ready to cook,frozen peas,P3,,no
+frozen-paratha,Frozen paratha,Snacks and ready to cook,frozen paratha|ready paratha,P3,,no
+tea,Tea,Drinks,tea|chai|chai patti|tea leaves,P1,,yes
+coffee,Coffee,Drinks,coffee|filter coffee|instant coffee|french press,P1,,yes
+green-tea,Green tea,Drinks,green tea|herbal tea,P2,,yes
+malt-drink,Malt drink,Drinks,bournvita|horlicks|boost|malt drink,P2,,yes
+soft-drinks,Soft drinks,Drinks,diet coke|coke|soda|soft drink,P2,,yes
+water-can,Water can,Drinks,water can|20 litre|bisleri,P2,,yes
+juice,Juice,Drinks,juice|fresh juice,P3,orange,no

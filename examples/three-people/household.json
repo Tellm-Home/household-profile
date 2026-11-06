@@ -1,0 +1,240 @@
+{
+ "slug": "three-people",
+ "title": "Example: three people",
+ "visit": "2026-09-03",
+ "hero": {
+  "greeting": "Hey Asha, Bilal & Chitra,",
+  "headline": "Here’s a snapshot of your kitchen",
+  "about": {
+   "label": "About your household",
+   "big": "Three flatmates, one shared fridge",
+   "small": ""
+  }
+ },
+ "people": [
+  {
+   "id": "asha",
+   "name": "Asha",
+   "avatar": 11,
+   "diet": "veg",
+   "allergies": "No allergies",
+   "likes": "Filter coffee",
+   "noticed": [
+    {
+     "icon": "weather_sunny",
+     "label": "Mornings",
+     "value": "Filter coffee, strong"
+    }
+   ]
+  },
+  {
+   "id": "bilal",
+   "name": "Bilal",
+   "avatar": 2,
+   "diet": "nonveg",
+   "allergies": "Peanut allergy",
+   "likes": "Biryani on Sundays",
+   "noticed": [
+    {
+     "icon": "warning",
+     "label": "Allergy",
+     "value": "Peanuts, including oil"
+    }
+   ]
+  },
+  {
+   "id": "chitra",
+   "name": "Chitra",
+   "avatar": 15,
+   "diet": "egg",
+   "allergies": "No allergies",
+   "likes": "Light dinners",
+   "noticed": []
+  }
+ ],
+ "household": {
+  "title": "Your household",
+  "sub": "Four of you, three ways of eating"
+ },
+ "cuisines": [
+  {
+   "name": "North Indian",
+   "note": "Dal, roti and a dry sabzi most days"
+  },
+  {
+   "name": "South Indian",
+   "note": "Dosa and idli on weekends"
+  }
+ ],
+ "platforms": [
+  "zepto",
+  "instamart"
+ ],
+ "meals": {
+  "title": "Your meal preference",
+  "sub": "Simple mornings, a packed lunch, a light dinner",
+  "items": [
+   {
+    "name": "Lunch",
+    "tag": "Packed",
+    "what": "Chicken, prawns or fish, with rice or roti",
+    "sub": "One of the two, never both"
+   },
+   {
+    "name": "Dinner",
+    "tag": "Light",
+    "what": "Two dishes and a cut salad",
+    "sub": "Often two curries. A different gravy from lunch"
+   }
+  ],
+  "notes": [],
+  "must": [
+   [
+    "Any one dish about once a week"
+   ],
+   [
+    "Cut fruit with breakfast",
+    "A banana and a citrus"
+   ]
+  ],
+  "nogo": [
+   [
+    "Peanuts",
+    "An avoid, not an allergy"
+   ],
+   [
+    "Fish with bones, or basa"
+   ],
+   [
+    "A plain rice thali for dinner"
+   ],
+   [
+    "The same gravy at lunch and dinner"
+   ],
+   [
+    "Omelettes on rotation"
+   ]
+  ]
+ },
+ "love": {
+  "title": "Food you love",
+  "sub": "No one cuisine every day. These three come back",
+  "often": [
+   "Eggs sunny side up",
+   "Egg sandwich",
+   "Chicken curry",
+   "Prawns",
+   "Mackerel",
+   "Paneer",
+   "Cut salad"
+  ],
+  "later": []
+ },
+ "spice": {
+  "level": 1
+ },
+ "proteins": [
+  {
+   "name": "Eggs",
+   "freq": 3,
+   "label": "Day to day"
+  },
+  {
+   "name": "Paneer",
+   "freq": 4,
+   "label": "Every day"
+  }
+ ],
+ "sources": {
+  "title": "Where your food comes from",
+  "sub": "Fresh only from the apps you trust",
+  "groups": [
+   {
+    "kind": "eggs",
+    "note": "A 30-pack",
+    "apps": [
+     "zepto"
+    ]
+   },
+   {
+    "kind": "fresh",
+    "apps": [
+     "instamart"
+    ]
+   }
+  ],
+  "filler": [
+   "Yogurt"
+  ],
+  "stock": [
+   "Milk",
+   "Bread"
+  ]
+ },
+ "kitchen": {
+  "title": "For your kitchen",
+  "sub": "Packaged favourites and where not to source fresh produce",
+  "must": [
+   [
+    "Packed goods from any app",
+    "Rotated by the month, for the better price"
+   ],
+   [
+    "Packets wiped, vegetables washed before storing"
+   ],
+   [
+    "Prawns deveined when the pack isn’t"
+   ]
+  ],
+  "nogo": [
+   [
+    "Anything fresh from Zepto or Blinkit",
+    "Vegetables, meat, anything that spoils"
+   ]
+  ],
+  "nogo_apps": [
+   "zepto",
+   "blinkit"
+  ]
+ },
+ "noticed": {
+  "title": "The little thing we noticed",
+  "sub": "Just the way each of you likes it"
+ },
+ "rules": {
+  "title": "Rules of the house",
+  "sub": "Nothing goes to waste or stays past its expiry",
+  "facts": [
+   {
+    "topic": "Leftovers",
+    "icon": "arrow_sync",
+    "value": "Next day",
+    "sub": "Reheated. Rice can become fried rice"
+   },
+   {
+    "topic": "Vegetables",
+    "icon": "calendar_ltr",
+    "value": "3 days",
+    "sub": "The longest they are kept"
+   }
+  ],
+  "must": [
+   [
+    "Ask before throwing anything out"
+   ],
+   [
+    "Wash what you use",
+    "Including the sandwich maker"
+   ],
+   [
+    "Wipe the counter and any spill"
+   ]
+  ],
+  "nogo": []
+ },
+ "closing": {
+  "title": "This is your kitchen as we know it",
+  "text": "If we’ve missed anything or something changes, just let us know",
+  "cta": "Drop us a voice note or a simple text and we’ll fix it"
+ }
+}

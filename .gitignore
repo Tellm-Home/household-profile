@@ -1,0 +1,24 @@
+# Everything is ignored unless listed here, so household data (profiles/) and old design
+# experiments never reach GitHub by accident.
+/*
+!/.gitignore
+!/README.md
+!/CLAUDE.md
+!/docs/
+!/examples/
+!/generator/
+!/library/
+!/.claude/
+/.claude/*
+!/.claude/skills/
+!/.claude/launch.json
+
+# built files and temporary files
+.DS_Store
+__pycache__/
+generator/tools/.tmp/
+examples/*/assets/
+examples/*/*.html
+examples/*/*.pdf
+examples/*/*.png
+examples/*/report.json
