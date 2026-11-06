@@ -9,6 +9,9 @@ You turn what the team learned on a home visit into `profiles/<house>/household.
 
 ## 1. Get the notes
 
+First, quietly get the latest pictures and fixes: run `git pull` in the project folder. Skip it if there's no internet, and never discard local changes without asking.
+
+
 - If they pasted notes, attached a file or named one, use that. If not, ask them to paste the visit notes or a transcript. That is the only thing you need to start.
 - Updating an existing house: open `profiles/<house>/household.json`, make the change they asked for, and skip to step 4.
 
